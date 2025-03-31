@@ -151,5 +151,13 @@
         private function setTocando($t) {
             $this->tocando = $t;
         }
+
+        private function getIsMenuOpen() {
+            return $this->isMenuOpen;
+        }
+
+        private function setIsMenuOpen($open) {
+            $this->isMenuOpen = $open;
+        }
     }
 ?>
