@@ -15,10 +15,10 @@
     
     <h2>Função para manipular datas com php <strong>date()</strong></h2>
     <p>
-        Hoje são <?=date("d-m-Y")?>, ou seja, <?=date("D")?> de <?=date("M")?> do ano de <?=date("Y")?>
+        Hoje são <?=date("d/m/Y")?>, ou seja, <?=date("D")?> de <?=date("M")?> do ano de <?=date("Y")?>
     </p>
     <p>
-        Neste momento são <?=date("g:i:s")?>
+        Neste momento são <?=date("g/i/s")?>
     </p>
 
     <h2>Funções para pegar e mudar o fuso horário do servidor <strong>date_default_timezone_get()</strong> e <strong>date_default_timezone_set()</strong></h2>
